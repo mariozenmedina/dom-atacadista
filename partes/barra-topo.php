@@ -1,35 +1,35 @@
 	<div class="row barra-topo" id="barra-topo">
 		<div class="container">
 			<form id="televendas">
-				<h6>Televendas:</h6>
+				<h6>Televendas:<br><span class="uc t12 w600">(para empresas)</span></h6>
 				<select class="form-control" name="lojas" id="select-lojas">
 					<option value="l1">Realengo</option>
 					<option value="l2">Taquara</option>
 					<option value="l3">Angra dos Reis</option>
 				</select>
 				<p>
-					<a href="tel:+552123456789"><span>(21)</span>2345-6711</a>
+					<a href="tel:+552136135701"><span>(21)</span>3613-5701</a>
 				</p>
 				<div class="whats">
-					<a href="javascript:void();"><i class="fab fa-whatsapp"></i><t><span>(21)</span>98765-4312</t></a>
-					<a href="javascript:void();"><i class="fab fa-whatsapp"></i><t><span>(21)</span>98765-4313</t></a>
+					<a href="tel:+5521972316095"><i class="fab fa-whatsapp"></i><t><span>(21)</span>97231-6095</t></a>
+					<a href="tel:+5521972316096"><i class="fab fa-whatsapp"></i><t><span>(21)</span>97231-6096</t></a>
 				</div>
 				<script type="text/javascript">
 					var lojas = {
 						l1: {
-							tel1: { num : "tel:+552123456711", text : "<span>(21)</span>2345-6711" },
-							tel2: { num : "tel:+55987654312", text : "<span>(21)</span>98765-4312" },
-							tel3: { num : "tel:+55987654313", text : "<span>(21)</span>98765-4313" },
+							tel1: { num : "tel:+552136135701", text : "<span>(21)</span>3613-5701" },
+							tel2: { num : "tel:+5521972316095", text : "<span>(21)</span>97231-6095" },
+							tel3: { num : "tel:+5521972316096", text : "<span>(21)</span>97231-6096" },
 						},
 						l2: {
-							tel1: { num : "tel:+552123456721", text : "<span>(21)</span>2345-6721" },
-							tel2: { num : "tel:+55987654322", text : "<span>(21)</span>98765-4322" },
-							tel3: { num : "tel:+55987654323", text : "<span>(21)</span>98765-4323" },
+							tel1: { num : "tel:+552163540721", text : "<span>(21)</span>6354-0721" },
+							tel2: { num : "tel:+5521996241322", text : "<span>(21)</span>98765-4322" },
+							tel3: { num : "tel:+5521987654323", text : "<span>(21)</span>98765-4323" },
 						},
 						l3: {
-							tel1: { num : "tel:+552123456731", text : "<span>(21)</span>2345-6731" },
-							tel2: { num : "tel:+55987654332", text : "<span>(21)</span>98765-4332" },
-							tel3: { num : "tel:+55987654333", text : "<span>(21)</span>98765-4333" },
+							tel1: { num : "tel:+552185232431", text : "<span>(21)</span>8523-2431" },
+							tel2: { num : "tel:+5521963857193", text : "<span>(21)</span>98765-4332" },
+							tel3: { num : "tel:+5521986308333", text : "<span>(21)</span>98765-4333" },
 						},
 					};
 					$("#select-lojas").change(function(){

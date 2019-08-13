@@ -1,9 +1,16 @@
 	<div class="container-fluid">
-		<div class="row rodape bescuro" id="rodape" style="z-index: 999; position: relative;">
+		<div class="row rodape" id="rodape">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h5 class="uc tc w600 ccinzaescuro p20">Todos os direitos reservados a oburgues.com.br 2019</h5>
+						<ul class="menu">
+							<li><a href=".">Início</a></li>
+							<li><a href=".">Encartes</a></li>
+							<li><a href=".">Endereços</a></li>
+							<li><a href=".">O Dom Atacadista</a></li>
+							<li><a href=".">Trabalhe Conosco</a></li>
+							<li><a href=".">Contato</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>

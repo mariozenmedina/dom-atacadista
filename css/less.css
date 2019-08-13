@@ -69,7 +69,7 @@
 html,
 body {
   font-size: 9px;
-  min-height: 3000px;
+  overflow-x: hidden;
 }
 * {
   font-family: Open Sans, Arial, Helvetica, sans-serif;
@@ -422,6 +422,59 @@ ol {
     background-repeat: no-repeat;
   }
 }
+@media (min-width: 992px) {
+  #barra-topo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: none;
+  }
+  #barra-topo form#televendas {
+    float: left;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #barra-topo form#televendas h6 {
+    display: inline-block;
+    padding-right: 15px;
+  }
+  #barra-topo form#televendas select {
+    display: inline-block;
+    width: 190px;
+    margin-right: 10px;
+  }
+  #barra-topo form#televendas p {
+    display: inline-block;
+    padding: 0 10px;
+    -webkit-transition-duration: 100ms;
+    -moz-transition-duration: 100ms;
+    -o-transition-duration: 100ms;
+    transition-duration: 100ms;
+  }
+  #barra-topo form#televendas .whats {
+    display: inline-block;
+    padding: 0 0 0 5px;
+  }
+  #barra-topo form#televendas .whats a {
+    display: block;
+    font-size: 1.6rem;
+    padding: 2px;
+    -webkit-transition-duration: 100ms;
+    -moz-transition-duration: 100ms;
+    -o-transition-duration: 100ms;
+    transition-duration: 100ms;
+  }
+  #barra-topo ul.menu.ms {
+    float: right;
+    padding-top: 4px;
+  }
+}
+@media (min-width: 1200px) {
+  #barra-topo form#televendas {
+    padding-left: 240px;
+  }
+}
 /*********************************** MENU ***********************************/
 @media all {
   #menu {
@@ -488,5 +541,341 @@ ol {
   #menu .menu li a:hover {
     transform: scale(1.3, 1.3);
     color: #FFD300;
+  }
+}
+@media (min-width: 992px) {
+  #menu {
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+    top: auto;
+    left: auto;
+    width: auto;
+    overflow: visible;
+    padding: 0;
+    border-bottom: solid 5px #FFD300;
+  }
+  #menu .logo {
+    display: block;
+    float: left;
+    height: 60px;
+  }
+  #menu .logo img {
+    width: 140px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  }
+  #menu .open {
+    display: none !important;
+  }
+  #menu .menu {
+    display: block !important;
+    position: relative;
+    top: auto;
+    right: auto;
+    width: auto;
+    height: auto;
+    float: right;
+    overflow-y: inherit;
+    padding-top: 0;
+  }
+  #menu .menu li {
+    display: inline-block;
+    padding: 0;
+  }
+  #menu .menu li a {
+    padding: 25px 12px;
+    border-top: solid 0px #FFD300;
+    border-bottom: solid 0px #FFD300;
+  }
+  #menu .menu li a:hover {
+    transform: none;
+    border-top: solid 10px #FFD300;
+    border-bottom: solid 10px #FFD300;
+    padding: 15px 12px;
+  }
+}
+@media (min-width: 1200px) {
+  #menu .logo {
+    margin-top: -60px;
+  }
+  #menu .logo img {
+    width: 200px;
+  }
+  #menu .menu li a {
+    padding: 30px 22px;
+  }
+  #menu .menu li a:hover {
+    padding: 20px 22px;
+  }
+}
+/*********************************** CAPA ***********************************/
+@media all {
+  #capa .item {
+    display: none;
+  }
+  #capa .item.active {
+    display: block;
+  }
+  #capa .item.desktop {
+    display: none;
+  }
+  #capa ul.controle {
+    width: 100%;
+    background-color: #FFD300;
+    height: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  #capa ul.controle li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 30px;
+    height: 5px;
+    position: relative;
+  }
+  #capa ul.controle li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #FFD300;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    opacity: 0.7;
+  }
+  #capa ul.controle li a:hover {
+    height: 40px;
+    opacity: 0.8;
+  }
+  #capa ul.controle li a.active {
+    height: 60px;
+    opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  #capa .item.mobile {
+    display: none;
+  }
+  #capa .item.desktop.active {
+    display: block;
+  }
+}
+/*********************************** LOJAS ***********************************/
+@media all {
+  #lojas {
+    background-image: url(../img/pattern.jpg);
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  #lojas h2 {
+    color: #FFD300;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 92px;
+    margin-bottom: 30px;
+    text-shadow: 15px 15px 0px #031727;
+  }
+  #lojas .loja {
+    background-color: #031727;
+    margin-bottom: 30px;
+  }
+  #lojas .loja .info {
+    padding: 25px;
+  }
+  #lojas .loja .info h3 {
+    font-size: 2.4rem;
+    color: #FFD300;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  #lojas .loja .info p {
+    color: #FFF;
+    font-size: 1.6rem;
+    line-height: 180%;
+    margin: 0;
+  }
+  #lojas .loja .info p i.fa-whatsapp {
+    color: #28AD00;
+  }
+  #lojas .loja .info p.tel {
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 140%;
+  }
+  #lojas .loja .info p.tel i {
+    margin-right: 10px;
+  }
+  #lojas .loja .info p.tel span {
+    font-size: 1.6rem;
+  }
+  #lojas .loja .info p.tel2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  #lojas .loja .info p.tel2 i {
+    margin-right: 10px;
+  }
+  #lojas .loja .info p.tel2 span {
+    font-size: 1.6rem;
+  }
+  #lojas .loja .info p a:hover {
+    color: #FFD300;
+  }
+  #lojas .loja iframe {
+    width: 100%;
+    height: 250px;
+  }
+  #lojas .loja .lancamento {
+    background-color: #FFD300;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  #lojas .loja .lancamento h5 {
+    color: #031727;
+    font-size: 4.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+  }
+  #lojas .loja .lancamento h5 span {
+    display: block;
+    font-size: 1.8rem;
+  }
+  #lojas a.mais {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #031727;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: 800;
+    border-radius: 5px;
+    color: #FFD300;
+    margin-top: 50px;
+  }
+  #lojas a.mais.nohover {
+    cursor: auto !important;
+  }
+}
+/*********************************** SOBRE ***********************************/
+@media all {
+  #sobre {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/back-sobre.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  #sobre::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+  #sobre * {
+    position: relative;
+    z-index: 12;
+  }
+  #sobre img {
+    margin-bottom: 30px;
+  }
+  #sobre p {
+    color: #FFF;
+    padding-bottom: 20px;
+    font-size: 1.6rem;
+    line-height: 160%;
+  }
+  #sobre p.slogan {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.2rem;
+    color: #FFD300;
+  }
+}
+@media (min-width: 992px) {
+  #sobre p {
+    font-size: 2.0rem;
+  }
+  #sobre p.slogan {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  #sobre p {
+    font-size: 2.2rem;
+    line-height: 180%;
+  }
+  #sobre p.slogan {
+    font-size: 3.6rem;
+  }
+}
+/*********************************** RODAPÉ ***********************************/
+@media all {
+  #rodape {
+    background-color: #031727;
+    border-bottom: solid 10px #FFD300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #rodape ul.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #rodape ul.menu li {
+    margin: 0;
+    padding: 0;
+  }
+  #rodape ul.menu li a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+  #rodape ul.menu li a:hover {
+    transform: scale(1.3, 1.3);
+    color: #FFD300;
+  }
+}
+@media (min-width: 992px) {
+  #rodape {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #rodape ul.menu li {
+    display: inline-block;
+  }
+  #rodape ul.menu li a {
+    padding: 25px 25px;
+  }
+  #rodape ul.menu li a:hover {
+    transform: none;
+    border-top: solid 10px #FFD300;
+    border-bottom: solid 10px #FFD300;
+    padding: 15px 25px;
+  }
+}
+@media (min-width: 1200px) {
+  #rodape ul.menu li a {
+    padding: 25px 35px;
+  }
+  #rodape ul.menu li a:hover {
+    transform: none;
+    padding: 15px 35px;
   }
 }
