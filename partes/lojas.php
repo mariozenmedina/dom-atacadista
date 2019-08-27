@@ -22,10 +22,6 @@
 					<div class="loja">
 						<div class="info">
 							<h3>Taquara</h3>
-							<p>Estrada da Água Branca, 2016 - Realengo<br>Rio de Janeiro - RJ, 21730-000</p>
-							<p class="tel"><a href="tel:+552123456789"><i class="fas fa-phone-alt"></i><span>+55 21 </span>2345-6789</a></p>
-							<p class="tel2"><a href="tel:+552123456789"><i class="fab fa-whatsapp"></i><span>+55 21 </span>98765-4312</a></p>
-							<p class="tel2"><a href="tel:+552123456789"><i class="fab fa-whatsapp"></i><span>+55 21 </span>98765-4322</a></p>
 						</div>
 						<div class="lancamento">
 							<h5><span>Inauguração:</span> 26-OUT-2019</h5>
@@ -36,10 +32,6 @@
 					<div class="loja">
 						<div class="info">
 							<h3>Angra dos Reis</h3>
-							<p>Estrada da Água Branca, 2016 - Realengo<br>Rio de Janeiro - RJ, 21730-000</p>
-							<p class="tel"><a href="tel:+552123456789"><i class="fas fa-phone-alt"></i><span>+55 21 </span>2345-6789</a></p>
-							<p class="tel2"><a href="tel:+552123456789"><i class="fab fa-whatsapp"></i><span>+55 21 </span>98765-4312</a></p>
-							<p class="tel2"><a href="tel:+552123456789"><i class="fab fa-whatsapp"></i><span>+55 21 </span>98765-4322</a></p>
 						</div>
 						<div class="lancamento">
 							<h5><span>Inauguração:</span> 12-DEZ-2019</h5>

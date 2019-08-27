@@ -81,8 +81,8 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.cantora {
-  font-family: 'Cantora One', sans-serif;
+.squada {
+  font-family: 'Squada One', sans-serif;
 }
 .no-transition {
   -webkit-transition: none !important;
@@ -820,6 +820,61 @@ ol {
   }
   #sobre p.slogan {
     font-size: 3.6rem;
+  }
+}
+/*********************************** PAGES ***********************************/
+@media all {
+  .page {
+    background-color: #F7F7F7;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    min-height: 80vh;
+  }
+  .page#trabalhe-conosco h2 {
+    text-align: center;
+    font-size: 5.6rem;
+    font-family: 'Squada One', sans-serif;
+    padding-bottom: 30px;
+  }
+  .page#trabalhe-conosco form {
+    width: 100%;
+  }
+  .page#trabalhe-conosco form label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+  .page#trabalhe-conosco form input,
+  .page#trabalhe-conosco form textarea,
+  .page#trabalhe-conosco form select {
+    height: 50px;
+    padding: 10px;
+    font-size: 1.8rem;
+    resize: none;
+    border: solid 1px #E5E5E5;
+  }
+  .page#trabalhe-conosco form textarea {
+    height: auto;
+  }
+  .page#trabalhe-conosco form p.help-block {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .page#trabalhe-conosco form .submit {
+    display: inline-block;
+    padding: 20px 45px;
+    background-color: #052846;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 800;
+    border-radius: 5px;
+    color: #FFD300;
+    margin-top: 50px;
+    height: auto;
+  }
+  .page#trabalhe-conosco form .submit:hover {
+    background-color: #031727;
   }
 }
 /*********************************** RODAPÉ ***********************************/

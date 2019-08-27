@@ -47,8 +47,8 @@ html,body{font-size: 9px; overflow-x: hidden;}
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.cantora{
-	font-family: 'Cantora One', sans-serif;
+.squada{
+	font-family: 'Squada One', sans-serif;
 }
 .no-transition{
 	-webkit-transition: none !important;
@@ -387,6 +387,30 @@ ul,ol{ list-style-type: none; .m0; .p0; }
 		p{
 			.t22; .lh180;
 			&.slogan{ .t36; }
+		}
+	}
+}
+
+/*********************************** PAGES ***********************************/
+@media all{
+	.page{
+		.bgelo; padding-top: 100px; padding-bottom: 150px; min-height: 80vh;
+		&#trabalhe-conosco{
+			h2{ .tc; .t56; .squada; padding-bottom: 30px; }
+			form{
+				width: 100%;
+				label{ .t14; .w700; .uc; padding-top: 10px; }
+				input, textarea, select{
+					height: 50px; .p10; .t18; resize: none;
+					border: solid 1px #E5E5E5;
+				}
+				textarea{ height: auto; }
+				p.help-block{ .t12; .w600; }
+				.submit{
+					.ib; padding: 20px 45px; .bazul; .uc; .t22; .w800; border-radius: 5px; .camarelo; margin-top: 50px; height: auto;
+					&:hover{ .bmarinho; }
+				}
+			}
 		}
 	}
 }
