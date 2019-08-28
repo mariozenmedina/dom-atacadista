@@ -767,11 +767,9 @@ ol {
 /*********************************** SOBRE ***********************************/
 @media all {
   #sobre {
+    background-color: #222;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(../img/back-sobre.jpg);
-    background-size: cover;
-    background-position: center center;
     position: relative;
   }
   #sobre::after {

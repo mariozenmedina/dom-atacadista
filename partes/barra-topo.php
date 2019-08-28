@@ -43,9 +43,9 @@
 				</script>
 			</form>
 			<ul class="menu ms">
-				<li class="ms-fb"><a href="http://facebook.com" target="_blank">Facebook</a></li>
+				<li class="ms-fb"><a href="https://www.facebook.com/domatacadista/" target="_blank">Facebook</a></li>
 <!--				<li class="ms-tw"><a href="http://twitter.com" target="_blank">Twitter</a></li>-->
-				<li class="ms-ins"><a href="http://instagram.com" target="_blank">Instagram</a></li>
+				<li class="ms-ins"><a href="https://www.instagram.com/domatacadista/" target="_blank">Instagram</a></li>
 <!--				<li class="ms-yt"><a href="http://youtube.com" target="_blank">Youtube</a></li>-->
 			</ul>
 		</div>

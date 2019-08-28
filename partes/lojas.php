@@ -24,7 +24,7 @@
 							<h3>Taquara</h3>
 						</div>
 						<div class="lancamento">
-							<h5><span>Inauguração:</span> 26-OUT-2019</h5>
+							<h5><span>Previsão de Inauguração:</span> OUTUBRO <br>2019</h5>
 						</div>
 					</div>
 				</div>
@@ -34,7 +34,7 @@
 							<h3>Angra dos Reis</h3>
 						</div>
 						<div class="lancamento">
-							<h5><span>Inauguração:</span> 12-DEZ-2019</h5>
+							<h5><span>Previsão de Inauguração:</span> DEZEMBRO <br>2019</h5>
 						</div>
 					</div>
 				</div>

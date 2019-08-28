@@ -5,7 +5,8 @@
 					<h2>Entre em contato</h2>
 				</div>
 			</div>
-			<form method="post" action="?post=true">
+			<?php if(!$_POST): ?>
+			<form method="post" action="">
 				<div class="row">
 					<div class="col-12 col-md-6">
 						<div class="form-group">
@@ -37,5 +38,18 @@
 					</div>
 				</div>
 			</form>
+			<?php elseif($envio): ?>
+			<div class="col-12 clear">
+				<div class="form-group">
+					<p class="wpcf7-mail-sent-ok">Recebemos a sua mensagem, responderemos em breve.</p>
+				</div>
+			</div>
+			<?php else: ?>
+			<div class="col-12 clear">
+				<div class="form-group">
+					<p class="wpcf7-validation-errors">Houve um erro ao enviar seus dados, tente novamente mais tarde.</p>
+				</div>
+			</div>
+			<?php endif; ?>
 		</div>
 	</div>
