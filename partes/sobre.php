@@ -1,10 +1,10 @@
 	<div class="row sobre" id="sobre">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md">
-					<img class="img-fluid" src="./img/logo-sobre.jpg" alt="logo do Dom Atacadista">
+				<div class="col-12">
+					<img class="img-fluid" src="./img/logo-horz.png" alt="logo do Dom Atacadista">
 				</div>
-				<div class="col-12 col-md">
+				<div class="col-12">
 					<p>O Dom Atacadista é um novo player no mercado regional, que está nascendo para conquistar o estado do Rio de Janeiro de forma sólida e sustentável. Tendo como líder, Erasmo Gonçalves, empresário arrojado e de aguçada percepção de negócios, que está montando uma robusta operação de cash and carry, com uma equipe experiente e diferenciada, pró ativa, profissional e com larga vivência no setor supermercadista. Temos como Missão comercializar produtos com preços competitivos, e proporcionar uma experiência de compra positiva, prezando pelo excelente relacionamento com os clientes e fornecedores.</p>
 					<p>Com base nesse know how, aliado a uma profunda pesquisa de mercado e uma equipe de ponta, nosso plano de negócios para abertura de lojas, totaliza dez filiais até dezembro de 2020. Nossa Visão é nos tornarmos líderes do segmento regional, por meio da nossa eficiência operacional e excelência no relacionamento com nossos colaboradores, parceiros, clientes e sociedade.</p>
 					<p>Proporcionaremos aos nossos clientes finais e empreendedores locais a possibilidade de fazerem sua reposição diária, além de poder negociar diretamente com os gerentes e o nosso serviço de televendas as melhores ofertas.</p>

@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<ul class="controle">
-			<li><a data-num="1" class="ctr ctr-1 active" href="javascript:void();"></a></li>
+<!--			<li><a data-num="1" class="ctr ctr-1 active" href="javascript:void();"></a></li>-->
 <!--			<li><a data-num="2" class="ctr ctr-2" href="javascript:void();"></a></li>-->
 		</ul>
 	</div>

@@ -10,7 +10,7 @@
 				<li><a href=".">O Dom Atacadista</a></li>
 -->
 				<li><a href="./cadastre-se.php">Cadastre-se</a></li>
-				<li><a href="./trabalhe-conosco.php">Trabalhe Conosco</a></li>
+				<li><a href="./trabalhe-conosco.php">Trabalhe com a gente</a></li>
 				<li><a href="./contato.php">Contato</a></li>
 			</ul>
 		</div>

@@ -17,6 +17,21 @@ if($_POST){
 <div class="container-fluid">
 	<?php include_once './partes/barra-topo.php'; ?>
 	<?php include_once './partes/menu.php'; ?>
-	<?php include_once './partes/trabalhe-conosco.php'; ?>
+	<?php //include_once './partes/trabalhe-conosco.php'; ?>
+	<div class="row page trabalhe-conosco" id="trabalhe-conosco">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Envie o seu currículo</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="tc t18 w400">para:</p>
+					<h3 class="tc"><a class="t22 w800" href="mailto:curriculo@domatacadista.net">curriculo@domatacadista.net</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <?php include_once 'footer.php'; ?>
